@@ -1,0 +1,418 @@
+body {
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+@font-face {
+  font-family: 'customfont2';
+  src: url(./Font/font1.ttf);
+}
+
+@font-face {
+  font-family: 'customfont1';
+  src: url(./Font/font2.ttf);
+}
+*{
+  font-family: customfont1;
+}
+/* Background của header */
+.background_header{
+  border: #000000 solid;
+  background-position: cover;
+  background-color: blanchedalmond;
+  position: relative;
+  width: 1440px;
+  height: 96px;
+}
+/*Menu của header*/
+
+.menu a {
+  
+  text-decoration: none;
+}
+
+.menu ul {
+  
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  top: 25%;
+  left: 55%;
+}
+
+.menu ul li{
+  margin-right: 80px;
+  color:black;
+}
+
+/*Chu GoBook trên thanh menu*/
+.gobook_menu{
+  position: absolute;
+  width: 630px;
+  height: 85px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  color: #060000;
+  top: 10%;
+  left: 15%;
+
+
+}
+
+/*Logo trên thanh menu*/
+.logo_menu{
+  top: 10%;
+  left:10%;
+  position: absolute;
+  width: 49px;
+  height: 62px;
+}
+
+/*Frame 10 Background*/
+.frame10{
+  border: #000000 solid;
+  position: relative;
+  background-color: #41D399;
+  width: 1440px;
+  height: 511px;
+}
+/*Dòng chữ lecturers*/
+.lecturers{
+  
+  top: 5%;
+  left: 37%;
+  position: absolute;
+  width: 407px;
+  height: 85px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 83px;
+  letter-spacing: 0.023em;
+  color: white;
+
+}
+/* Logo của agent frame 10 */
+
+.logo_agent{
+  top: 30%;
+  position: relative;
+  
+}
+
+.logo_agent1{
+  position: absolute;
+  left: 15%;
+}
+.logo_agent2 {
+  position: absolute;
+  left: 35%;
+}
+.logo_agent3 {
+  position: absolute;
+  left: 55%;
+}
+.logo_agent4 {
+  position: absolute;
+  left: 75%;
+}
+
+/*Tên của agent frame 10*/
+
+.name_agent a {
+
+  text-decoration: none;
+ 
+}
+
+.name_agent ul {
+
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  margin-top: 5%;
+  left: 13%;
+}
+
+.name_agent ul li {
+  margin-right: 235px;
+  color: black;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.023em;
+}
+
+/* Gach chan cua agent frame 1*/
+.line_space a {
+
+  text-decoration: none;
+
+}
+
+.line_space ul {
+
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  margin-top: 8%;
+  left: 10%;
+}
+
+.line_space ul li {
+  margin-right: 150px;
+  color: black;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.023em;
+}
+
+/*frame 11 background*/
+.frame11 {
+  border: #000000 solid;
+  position: relative;
+  background-color: #41D399;
+  width: 1440px;
+  height: 511px;
+}
+
+/* Dong chu Lawyers frame11 */
+.lawyers {
+  top: 5%;
+  left: 37%;
+  position: absolute;
+  width: 407px;
+  height: 85px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 83px;
+  letter-spacing: 0.023em;
+  color: white;
+
+}
+/*Day la frame 12*/
+
+.frame12{
+  border: #000000 solid;
+  top: 100%;
+  position: relative;
+  background-color: #41D399;
+  width: 1440px;
+  height: 511px;
+}
+/*Dong chu doctor*/
+.doctor {
+  top: 5%;
+  left: 37%;
+  position: absolute;
+  width: 407px;
+  height: 85px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 83px;
+  letter-spacing: 0.023em;
+  color: white;
+
+}
+
+/* Đây là phần footer*/
+.bar a {
+  text-decoration: none;
+}
+
+.bar ul {
+  position: absolute;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  top: 10%;
+  left: 5%;
+}
+
+.bar li {
+  color: white;
+  margin-right: 200px;
+
+}
+
+.footer {
+  border: #000000 solid;
+  top: 100%;
+  left: -0.15%;
+  position: relative;
+  background-color: #FFB87A;
+  width: 1440px;
+  height: 510px;
+}
+
+ul li:hover {
+
+  color: royalblue;
+}
+
+ul li:active {
+
+  color: white;
+}
+
+
+/* đây thanh menu bar ở phần footer*/
+
+/*Đây là hàng 1 của footer*/
+.bar1 a {
+  text-decoration: none;
+}
+
+.bar1 ul {
+
+  position: absolute;
+  list-style-type: none;
+  display: inl;
+  justify-content: center;
+  top: 25%;
+  left: 5%;
+}
+
+.bar1 ul li {
+  color: white;
+  padding: 10px 0;
+  /* Tạo khoảng cách 10px giữa chúng theo chiều dọc */
+}
+
+
+/*Đây là hàng 2 của footer*/
+.bar2 a {
+  text-decoration: none;
+}
+
+.bar2 ul {
+  position: absolute;
+  list-style-type: none;
+  display: inl;
+  justify-content: center;
+  top: 25%;
+  left: 24.3%;
+}
+
+.bar2 ul li {
+  color: white;
+  padding: 10px 0;
+  /* Tạo khoảng cách 10px giữa chúng theo chiều dọc */
+}
+
+/*Đây là hàng 3 của footer*/
+.bar3 a {
+  text-decoration: none;
+}
+
+.bar3 ul {
+  position: absolute;
+  list-style-type: none;
+  justify-content: center;
+  top: 25%;
+  left: 44%;
+}
+
+.bar3 ul li {
+  color: white;
+  padding: 10px 0;
+  /* Tạo khoảng cách 10px giữa chúng theo chiều dọc */
+}
+
+/*Chu Gobook*/
+.chugobook {
+  position: absolute;
+  color: white;
+  top: 14%;
+  left: 75%;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 150%;
+  /* or 69px */
+  letter-spacing: 0.5px;
+}
+
+.subcribe {
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 75%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+
+}
+
+.background_sub {
+  top: 47%;
+  left: 75%;
+  width: 300px;
+  height: 70px;
+  position: absolute;
+  background: #2CD997;
+  border-radius: 8px;
+}
+
+.background_sub2 {
+  top: 50%;
+  left: 84%;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13px 30px;
+  gap: 10px;
+  border-radius: 12px;
+
+}
+
+.placeholder {
+  position: absolute;
+  top: 53%;
+  left: 75.7%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  /* or 24px */
+}
+
+.chusubcribe {
+  position: absolute;
+  top: 53%;
+  left: 87%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+}
+
+.facebook {
+  position: absolute;
+  top: 90%;
+  left: 75%;
+}
+
+.twitter {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+}
+
+.linkedin {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+
+}
+
+
+
