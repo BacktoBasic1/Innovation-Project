@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+position: absolute;
+width: 49px;
+height: 62px;
+left: 64px;
+top: 25px;
+}
+
+
+.Textchoose{
+    position: absolute;
+    width: 870px;
+    height: 91px;
+    left: 5%;
+    top: 5%;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 83px;
+    letter-spacing: 0.023em;
+    color: #000000;
+}
+
+
+.agency{
+position: absolute;
+float: left;
+width: 237px;
+height: 392px;
+left: 4%;
+top: 138px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}   
+
+
+.imgagency{
+width: 47%;
+height: 37%;
+left:26%;
+top:4%;
+border: 1px solid gray;
+}
+
+.textagency {
+position: absolute;
+width: 118.46px;
+height: 139.44px;
+left: 24%;
+top: 46%;
+font-family: 'Montserrat';
+line-height: 24px;
+font-size: 15px;
+color: #000000;
+border: 2px solid rebeccapurple;
+} 
+    .agency2{
+        position: absolute;
+        float: left;
+        display: block;
+        width: 237px;
+        height: 392px;
+        left: 24%;
+        top: 138px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+    .agency3{
+        position: absolute;
+        float: left;
+        width: 237px;
+        height: 392px;
+        left: 44%;
+        top: 138px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+    .btn {
+        position: absolute;
+        top: 85%;
+        left: 30%;
+        display: block;
+        justify-content: center;
+        border: none;
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #ff9800  
+    
+    }
+    .btn:hover {
+        background: #e68a00
+    }
+
+    .Textdate{
+        position: absolute;
+        width: 870px;
+        height: 91px;
+        left: 5%;
+        top: 59%;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 83px;
+        letter-spacing: 0.023em;
+        color: #000000;
+    }
+
+
+
+.datetime{ 
+position: absolute;
+width: 57%;
+height: 15%;
+left: 4%;
+top: 67.5%;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.test{
+    height:20%;
+    position: absolute;
+    left: 30%;
+    top: 30%
+}
