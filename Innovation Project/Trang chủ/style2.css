@@ -11,26 +11,89 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+/*Menu của header*/
+
+.menu a {
+
+  text-decoration: none;
+}
+
+.menu ul {
+
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  top: 9% ;
+  left: 55%;
+}
+
+.menu ul li {
+  margin-right: 80px;
+  color: black;
+}
+
+/*Chu GoBook trên thanh menu*/
+.gobook_menu {
+  position: absolute;
+  width: 630px;
+  height: 85px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  color: #060000;
+  top: 10%;
+  left: 25%;
+
+
+}
+
+/*Logo trên thanh menu*/
+.logo_menu {
+  top: 10%;
+  left: 20%;
+  position: absolute;
+  width: 49px;
+  height: 62px;
+}
+
+/*Background Trang chủ*/
+.hinhanhdautrang img{
+  top: 20%;
+  position: absolute;
+  left: 15%;
+  width: 1200px;
+  height:80%;
+}
+
+
 
 /* đây là phần nền màu xanh*/
 
+
+
+
 .background {
   background-position: cover;
-  top: 25%;
-  left: 20%;
+  top: 150%;
+  left: 10%;
   position: absolute;
   background-color: #41D399;
-  width: 1435px;
-  height: 600px;
+  width: 1300px;
+  height: 610px;
 }
 
 /* đây là phần chữ agency*/
 .agency {
   color: white;
   position: absolute;
-  top: 20%;
-  left: 50%;
-  font-size: 60px;
+  top:150%;
+  left: 46%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+
+color: #FFFEFE;
 }
 
 /*Đây là ô see more*/
@@ -44,7 +107,7 @@ body {
   align-items: center;
   padding: 0px;
   gap: 8px;
-  left: 90%;
+  left: 85%;
   top: 80%;
   position: absolute;
   width: 99px;
@@ -58,8 +121,8 @@ body {
 .box1 {
 
   position: absolute;
-  top: 45%;
-  left: 30%;
+  top: 170%;
+  left: 20%;
   width: 15%;
   height: 40%;
   animation: changeColor 3s infinite;
@@ -94,8 +157,8 @@ body {
 /* đây là ô thứ hai trên màn hình*/
 .box2 {
   position: absolute;
-  top: 45%;
-  left: 55%;
+  top:170%;
+  left: 43%;
   width: 15%;
   height: 40%;
   animation: changeColor 3s infinite;
@@ -106,14 +169,105 @@ body {
 /* đây là ô thứ ba trên màn hình*/
 .box3 {
   position: absolute;
-  top: 45%;
-  left: 80%;
+  top: 170%;
+  left: 66%;
   width: 15%;
   height: 40%;
   animation: changeColor 3s infinite;
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+/* Đây là phần Why us*/
+.text1{
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.023em;
+  color: #000000;
+}
+.text2 {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.023em;
+  color: #000000;
+}
+.text3 {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.023em;
+  color: #000000;
+}
+.whyus{
+  position: absolute;
+  top: 98%;
+  left: 45%;
+  font-weight: 600;
+  font-size: 67.34px;
+  line-height: 88px;
+  text-align: center;
+  letter-spacing: 0.023em;
+
+  color: #9D9A9A;
+}
+.whyus_box{
+ 
+
+}
+.whyus_box1{
+top: 115%;
+  left: 18.7%;
+  position: absolute;
+  background: white;
+  width: 211px;
+  height: 247px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border-color: #41D399;
+  border-width: 1px;
+  border-style: solid;
+
+
+}
+.whyus_box2 {
+top: 115%;
+  left: 45.3%;
+  position: absolute;
+  background: white;
+  width: 211px;
+  height: 247px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border-color: #41D399;
+  border-width: 1px;
+  border-style: solid;
+
+
+}
+.whyus_box3 {
+top: 115%;
+  left: 72%;
+  position: absolute;
+  background: white;
+  width: 211px;
+  height: 247px;
+  box-shadow: 0px 4px 4px rgba(27, 26, 26, 0.25);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 25px ;
+  border-color: #41D399;
+
+
+}
+
 
 /* đây thanh menu bar ở phần footer*/
 
@@ -139,11 +293,11 @@ body {
 
 .footer {
   background-position: cover;
-  top: 94%;
-  left: 20%;
+  top: 223%;
+  left: 10%;
   position: absolute;
   background-color: #FFB87A;
-  width: 1435px;
+  width: 1300px;
   height: 400px;
 }
 
@@ -248,7 +402,7 @@ ul li:active {
 .background_sub {
   top: 47%;
   left: 75%;
-  width: 300px;
+  width: 320px;
   height: 70px;
   position: absolute;
   background: #2CD997;
