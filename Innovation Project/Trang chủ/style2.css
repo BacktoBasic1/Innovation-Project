@@ -142,6 +142,10 @@ color: #FFFEFE;
   background: #FFB87A;
   border-radius: 100px;
 }
+#seemore_hover{
+  color: red;
+  transition: 0.5 ease-in-out;
+}
 
 /* đây là ô thứ nhất trên màn hình*/
 
