@@ -66,11 +66,38 @@ body {
   height:80%;
 }
 
+/*Book now button đầu trang*/
+.booknow_button{
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 75%;
+  left: 25%;
+  background: #20BC7E;
+  box-shadow: 0px 2px 10px rgba(65, 211, 153, 0.7);
+  border-radius: 47px;
+}
+.booknow_button a{
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+    font-size: 28.43px;
+    line-height: 37px;
+    /* identical to box height */
+    letter-spacing: 0.023em;
+}
+.booknow_button a:hover
+{
+  color: crimson;
+  transition: 0.5s ease-in-out;
+}
+
 
 
 /* đây là phần nền màu xanh*/
-
-
 
 
 .background {
